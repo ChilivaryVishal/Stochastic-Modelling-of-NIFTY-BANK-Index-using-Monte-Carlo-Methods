@@ -14,6 +14,14 @@
 | :---: | :---: |
 | ![40 paths](images/Monte_Carlo_GBM_Chart_40_Price_Paths.svg) | ![2000 paths](images/Monte_Carlo_GBM_2000_Paths.svg) |
 
+| Bootstrap 40 Price paths | Bootstrap 2000 Price paths |
+| :---: | :---: |
+| ![40 paths](images/Bootstrap_Simulation_Chart.svg) | ![2000 paths](images/Bootstrap_Simulation_2000_Paths.svg) |
+
+| GBM Confidence Bands | Bootstrap Confidence Bands |
+| :---: | :---: |
+| ![GBM](images/Monte_Carlo_GBM_Confidence_Bands.svg) | ![Bootstrap](images/Bootstrap_Simulation_Confidence_Bands.svg) |
+
 ## Overview
 
 This repository presents an **applied probability and stochastic modeling study**
@@ -32,10 +40,10 @@ risk estimates in real-world financial time series.
 
 | Description | File |
 |------------|------|
-| Jupyter notebook containing the complete Monte Carlo simulation, EDA, parameter estimation, and risk analysis | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_2015_2025.ipynb` |
-| Detailed academic report with mathematical formulation, results, and interpretation | `Monte_Carlo_Simulation_of_NIFTY_BANK_Index_Research_Note.pdf` |
-| Historical daily NIFTY BANK index data (2015–2025) | `niftybank2015-2025.csv` |
-| Publication-quality figures (SVG format) | `figures/` |
+| Jupyter notebook containing the complete Monte Carlo simulation, EDA, parameter estimation, and risk analysis | `Stochastic_Modelling_of_NIFTY_BANK_Index_using_Monte_Carlo_Methods.ipynb` |
+| Detailed academic report with mathematical formulation, results, and interpretation | `Stochastic Modelling of NIFTY BANK Index using Monte Carlo Methods.pdf` |
+| Historical daily NIFTY BANK index data (2015–2026) | `niftybank2015-2026.csv` |
+| Publication-quality figures (SVG format) | `images` |
 
 
 
@@ -86,7 +94,7 @@ Monte Carlo methods provide a principled framework for:
 
 - **Source:** National Stock Exchange of India (NSE)
 - **Instrument:** NIFTY BANK Index
-- **Time Period:** January 2015 – December 2025
+- **Time Period:** 01 January 2015 – 01 January 2026
 - **Frequency:** Daily trading data
 
 The dataset is used strictly for academic and research purposes.
