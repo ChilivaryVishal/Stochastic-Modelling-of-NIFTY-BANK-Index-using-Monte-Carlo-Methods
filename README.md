@@ -1,5 +1,4 @@
-# Monte Carlo Simulation of NIFTY BANK Index (2015–2025)
-
+# Stochastic Modelling of NIFTY BANK Index using Monte Carlo Methods
 ![Python](https://img.shields.io/badge/Python-3.11.9-blue)
 ![NumPy](https://img.shields.io/badge/NumPy-2.3.4-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.2.3-blue)
@@ -11,7 +10,9 @@
 ![Method](https://img.shields.io/badge/Method-Monte%20Carlo-orange)
 ![Focus](https://img.shields.io/badge/Focus-Probability%20%26%20Stochastic%20Processes-purple)
 
-![Monte Carlo Simulation Using Geometric Brownian Motion](figures/Monte_Carlo_GBM_Chart.svg)
+| GBM 40 Price paths | GBM 2000 Price paths |
+| :---: | :---: |
+| ![40 paths](images/Monte_Carlo_GBM_Chart_40_Price_Paths.svg) | ![2000 paths](images/Monte_Carlo_GBM_2000_Paths.svg) |
 
 ## Overview
 
